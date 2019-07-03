@@ -1,21 +1,418 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<base href="/">
+    <!--====== HEADER PART START ======-->
+    
+    <header id="home" class="header-area">
+      <div class="navigation fixed-top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <nav class="navbar navbar-expand-lg">
+                          <a class="navbar-brand" href="index.html">
+                          </a> <!-- Logo -->
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="toggler-icon"></span>
+                              <span class="toggler-icon"></span>
+                              <span class="toggler-icon"></span>
+                          </button>
 
-<router-outlet></router-outlet>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
+                                  <li class="nav-item"><a class="page-scroll" href="#about">About</a></li>
+                                  <li class="nav-item"><a class="page-scroll" href="#service">Services</a></li>
+                                  <li class="nav-item"><a class="page-scroll" href="#work">Portfolio</a></li>
+                                  <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
+                              </ul>
+                          </div> <!-- navbar collapse -->
+                      </nav> <!-- navbar -->
+                  </div>
+              </div> <!-- row -->
+          </div> <!-- container -->
+      </div> <!-- navigation -->
+
+        <div id="parallax" class="header-content d-flex align-items-center">          
+          <div class="header-shape shape-eight layer" data-depth="0.40">
+              <img src="../assets/images/banner/shape/shape-3.png" alt="Shape">
+          </div> <!-- header shape -->
+          <div class="header-shape shape-nine layer" data-depth="0.20">
+              <img src="../assets/images/banner/shape/shape-6.png" alt="Shape">
+          </div> <!-- header shape -->
+          <div class="../header-shape shape-ten layer" data-depth="0.30">
+              <img src="../assets/images/banner/shape/shape-3.png" alt="Shape">
+          </div> <!-- header shape --> 
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-xl-5 col-lg-6">
+                      <div class="header-content-right">
+                          <h4 class="sub-title">Hello, I’m</h4>
+                          <h1 class="title">SRINIVASAN VARIPPYREDDY</h1>
+                          <p>UI/Presentation Developer</p>
+                          <a class="main-btn page-scroll"  href="#work">View my Work</a>
+                      </div> <!-- header content right -->
+                  </div>
+                  <div class="col-lg-6 offset-xl-1">
+                      <div class="header-image d-none d-lg-block">
+                          <img src="../assets/images/banner/Dad.jpg" alt="hero">
+                      </div> <!-- header image -->
+                  </div>
+              </div> <!-- row -->
+          </div> <!-- container -->
+          <div class="header-social">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <div class="header-social-icon">
+                              <ul>
+                                  <li><a href="https://www.facebook.com/varsrinivasan?epa=SEARCH_BOX"><i class="lni-facebook-filled"></i></a></li>
+                                  <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                                  <li><a href="https://www.linkedin.com/in/varippyreddysrinivasan/"><i class="lni-linkedin-original"></i></a></li>
+                              </ul>
+                          </div> <!-- header social -->
+                      </div>
+                  </div> <!-- row -->
+              </div> <!-- container -->
+          </div> <!-- header social -->
+      </div> <!-- header content -->
+  </header>
+  <!--====== HEADER PART ENDS ======-->
+
+  <!--====== ABOUT PART START ======-->
+
+  <section id="about" class="about-area pt-125 pb-130">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-8">
+                  <div class="section-title text-center">
+                      <h2 class="title">About Me</h2>
+                      <p>Quick learner, possessing an analytical & innovative approach
+                        towards work with an eye for detail along with the ability to
+                        quickly grab new concepts & technology & passionate about
+                        building awesome user experience.</p>
+                  </div> <!-- section title -->
+              </div>
+          </div> <!-- row -->
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="about-content mt-50">
+                      <h5 class="about-title">Hi There! I'm Srinivasan Varippyreddy</h5>
+                      <p>Proven hands-on engineering over 12+ years of expertise in
+                        building extremely scalable, open source web and mobile e-
+                        commerce front-end solutions for complex, high traffic and
+                        fast paced consumer environments such as eBay.</p>
+                      <ul class="clearfix">
+                          <li>
+                                  <div class="single-info d-flex align-items-center">
+                                          <div class="info-icon">
+                                              <i class="lni-calendar"></i>
+                                          </div>
+                                          <div class="info-text">
+                                              <p><span>Date of birth:</span> 4 June 1960</p>
+                                          </div>
+                                      </div> <!-- single info -->    
+                          </li>
+                          <li>
+                              <div class="single-info d-flex align-items-center">
+                                  <div class="info-icon">
+                                      <i class="lni-envelope"></i>
+                                  </div>
+                                  <div class="info-text">
+                                      <p><span>Email:</span> springurs@gmail.com</p>
+                                  </div>
+                              </div> <!-- single info -->
+                          </li>
+                          <li>
+                              <div class="single-info d-flex align-items-center">
+                                  <div class="info-icon">
+                                      <i class="lni-phone-handset"></i>
+                                  </div>
+                                  <div class="info-text">
+                                      <p><span>Phone:</span> 408-893-0438</p>
+                                  </div>
+                              </div> <!-- single info -->
+                          </li>
+                      </ul>
+                  </div> <!-- about content -->
+              </div>
+              <div class="col-xl-5 offset-xl-1 col-lg-6">
+                  <div class="about-skills pt-25">
+                      <canvas id="mycanvas" width="256" height="256"></canvas>
+                  </div> <!-- about skills -->
+              </div>
+          </div> <!-- row -->
+      </div> <!-- container -->
+  </section>
+
+  <!--====== ABOUT PART ENDS ======-->
+
+  <!--====== SERVICES PART START ======-->
+
+  <section id="service" class="services-area gray-bg pt-125 pb-130">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-8">
+                  <div class="section-title text-center pb-30">
+                      <h2 class="title">My Services</h2>
+                      <p>Innate ability to understand, create and develop winning
+                        presentation platforms, front-end web/mobile products, with a
+                        keen focus on driving revenue, improving Prototype, building
+                        positive brand impact, and providing long term scalability.</p>
+                  </div> <!-- section title -->
+              </div>
+          </div> <!-- row -->
+          <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 col-sm-8">
+                  <div class="single-service text-center mt-30">
+                      <div class="service-icon">
+                          <i class="lni-code-alt"></i>
+                      </div>
+                      <div class="service-content">
+                          <h4 class="service-title"><a href="#">MTS 2 Staff Engineer</a></h4>
+                          <p>EBAY INC, San Jose CA
+                            Oct 2012 – till date</p>
+                      </div>
+                  </div> <!-- single service -->
+              </div>
+             
+              <div class="col-lg-4 col-md-6 col-sm-8">
+                  <div class="single-service text-center mt-30">
+                      <div class="service-icon">
+                          <i class="lni-mobile"></i>
+                      </div>
+                      <div class="service-content">
+                          <h4 class="service-title"><a href="#">User Developer</a></h4>
+                          <p>MPHASIS, Bangalore India.
+                            Jan 2007 – Dec 2007</p>
+                      </div>
+                  </div> <!-- single service -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-8">
+                  <div class="single-service text-center mt-30">
+                      <div class="service-icon">
+                          <i class="lni-vector"></i>
+                      </div>
+                      <div class="service-content">
+                          <h4 class="service-title"><a href="#">Technical Specialist In User Experience</a></h4>
+                          <p>MINDTREE PVT LTD, San Jose CA.
+                            Oct 2010 – Sept 2012</p>
+                      </div>
+                  </div> <!-- single service -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-8">
+                  <div class="single-service text-center mt-30">
+                      <div class="service-icon">
+                          <i class="lni-website"></i>
+                      </div>
+                      <div class="service-content">
+                          <h4 class="service-title"><a href="#">Web Development</a></h4>
+                          <p>COLLABERA, Bangalore India.
+                            Mar 2006 – Jan 2007</p>
+                      </div>
+                  </div> <!-- single service -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-8">
+                  <div class="single-service text-center mt-30">
+                      <div class="service-icon">
+                          <i class="lni-support"></i>
+                      </div>
+                      <div class="service-content">
+                          <h4 class="service-title"><a href="#">User Experience Lead</a></h4>
+                          <p>MINDTREE PVT LTD, Chennai India.
+                          Dec 2007 – Oct 2010</p>
+                      </div>
+                  </div> <!-- single service -->
+              </div>
+          </div> <!-- row -->
+      </div> <!-- container -->
+  </section>
+
+  <!--====== SERVICES PART ENDS ======-->
+
+  <!--====== WORK PART START ======-->
+
+  <section id="work" class="work-area pt-125 pb-130">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="section-title pb-25">
+                      <h2 class="title">My Recent Works</h2>
+                      <p></p>
+                  </div> <!-- section title -->
+              </div>
+          </div> <!-- row -->
+          <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-work text-center mt-30">
+                      <div class="work-image">
+                          <img src="assets\images\work\w-1.jpg" alt="work">
+                      </div>
+                      <div class="work-overlay">
+                          <div class="work-content">
+                              <h3 class="work-title">Product Design</h3>
+                              <ul>
+                                  <li><a class="image-popup" href="../assets\images\work\w-1.jpg"><i class="lni-plus"></i></a></li>
+                                  <li><a href="#"><i class="lni-link"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div> <!-- single work -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-work text-center mt-30">
+                      <div class="work-image">
+                          <img src="assets\images\work\w-1.jpg" alt="work">
+                      </div>
+                      <div class="work-overlay">
+                          <div class="work-content">
+                              <h3 class="work-title">Product Design</h3>
+                              <ul>
+                                  <li><a class="image-popup" href="assets/images/work/w-2.jpg"><i class="lni-plus"></i></a></li>
+                                  <li><a href="#"><i class="lni-link"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div> <!-- single work -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-work text-center mt-30">
+                      <div class="work-image">
+                          <img src="assets/images/work/w-3.jpg" alt="work">
+                      </div>
+                      <div class="work-overlay">
+                          <div class="work-content">
+                              <h3 class="work-title">Product Design</h3>
+                              <ul>
+                                  <li><a class="image-popup" href="assets/images/work/w-3.jpg"><i class="lni-plus"></i></a></li>
+                                  <li><a href="#"><i class="lni-link"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div> <!-- single work -->
+          </div> <!-- row -->
+      </div> <!-- container -->
+  <!-- </section> -->
+  <!--====== WORK PART ENDS ======-->
+
+  <!--====== CONTACT PART START ======-->
+  <form id="Contact-form" method="post" action="Contact-form.php">
+  <section id="contact" class="contact-area pt-125 pb-130 gray-bg">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-8">
+                  <div class="section-title text-center pb-25">
+                      <h2 class="title">Get In Touch</h2>
+                      <p></p>
+                  </div> <!-- section title -->
+              </div>
+          </div> <!-- row -->
+          <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 col-sm-7">
+                  <div class="contact-box text-center mt-30">
+                      <div class="contact-icon">
+                          <i class="lni-map-marker"></i>
+                      </div>
+                      <div class="contact-content">
+                          <h6 class="contact-title">Address</h6>
+                          <p>3100 Dublin Blvd . Dublin CA 984568-4363</p>
+                      </div>
+                  </div> <!-- contact box -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-7">
+                  <div class="contact-box text-center mt-30">
+                      <div class="contact-icon">
+                          <i class="lni-phone"></i>
+                      </div>
+                      <div class="contact-content">
+                          <h6 class="contact-title">Phone</h6>
+                          <p>408-893-0438</p>
+                      </div>
+                  </div> <!-- contact box -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-7">
+                  <div class="contact-box text-center mt-30">
+                      <div class="contact-icon">
+                          <i class="lni-envelope"></i>
+                      </div>
+                      <div class="contact-content">
+                          <h6 class="contact-title">Email</h6>
+                          <p>springurs@gmail.com</p>
+                      </div>
+                  </div> <!-- contact box -->
+              </div>
+          </div> <!-- row -->
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="contact-form pt-30">
+                      <form id="contact-form" action="#">
+                          <div class="single-form">
+                              <input type="text" name="name" placeholder="Name">
+                          </div> <!-- single form -->
+                          <div class="single-form">
+                              <input type="email" name="email" placeholder="Email">
+                          </div> <!-- single form -->
+                          <div class="single-form">
+                              <textarea name="message" placeholder="Message"></textarea>
+                          </div> <!-- single form -->
+                          <p class="form-message"></p>
+                          <div class="single-form">
+                              <button class="main-btn" type="submit">Send Message</button>
+                          </div> <!-- single form -->
+                      </form>
+                  </div> <!-- contact form -->
+              </div>
+              <div class="col-lg-6">
+                  <div class="contact-map mt-60">
+                      <div class="gmap_canvas">                            
+                          <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                      </div>
+                  </div> <!-- contact map -->
+              </div>
+          </div> <!-- row -->
+      </div> <!-- container -->
+  </section>
+  </form>
+
+  <!--====== CONTACT PART ENDS ======-->
+
+  <!--====== FOOTER PART START ======-->
+
+  <footer id="footer" class="footer-area">
+      <div class="footer-widget pt-130 pb-130">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                      <div class="footer-content text-center">
+                          <a href="index.html">
+                              <img src="assets/images/logo-2.png" alt="Logo">
+                          </a>
+                          <p class="mt-">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                          <ul>
+                              <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                              <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                              <li><a href="#"><i class="lni-pinterest"></i></a></li>
+                              <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                          </ul>
+                      </div> <!-- footer content -->
+                  </div>
+              </div> <!-- row -->
+          </div> <!-- container -->
+      </div> <!-- footer widget -->
+      <div class="footer-copyright pb-20">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="copyright-text text-center pt-20">
+                          <p>Copyright © 2022. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                      </div> <!-- copyright text -->
+                  </div>
+              </div> <!-- row -->
+          </div> <!-- container -->
+      </div> <!-- footer widget -->
+  </footer>
+
+  <!--====== FOOTER PART ENDS ======-->
+
+  <!--====== BACK TOP TOP PART START ======-->
+
+  <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+  <!--====== BACK TOP TOP PART ENDS ======-->
