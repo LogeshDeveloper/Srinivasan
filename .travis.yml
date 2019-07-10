@@ -17,6 +17,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: dist/myport
+  local_dir: dist/dadportfolio
   on:
     branch: master
